@@ -107,7 +107,7 @@ ${code}
 `;
 
     const result = await ai.models.generateContentStream({
-      model: "gemini-3.8-flash",
+      model: "gemini-3.7-flash",
       contents: prompt,
     });
 
